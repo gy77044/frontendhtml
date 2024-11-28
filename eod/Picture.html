@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>Show Different Images Depending on Browser Width</h2>
+        <p>Resize the browser width and the image will change at 600px and 1500px.</p>
+
+        <picture>
+            <source srcset="aa.jpg" media="(max-width:600px)">
+            <source srcset="aa.jpg" media="(max-width:1500px)">
+            <source srcset="Capture.PNG" >
+            <img src="./Capture.PNG" alt="Flowers" style="width:auto;">
+        </picture>
+    </body>
+</html>
