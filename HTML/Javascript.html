@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>My First Javascript</h1>
+        <button type="button" onclick="document.getElementById('myid').innerHTML=Date()">Click me to display Date and Time.</button>
+
+        <p id="myid"></p>
+
+        <h2>My Javascript</h2>
+        <button onclick="myFunction()">Javascript can change the content of an html element:</button>
+        <p id="demo">This is a demostration.</p>
+
+        <h3>Third Javascript</h3>
+        <button onclick="myfunc1()">Click Karo</button>
+        <p id="demo1">Javascript can change the style of an HTML element.</p>
+        <script>
+            function myFunction(){
+document.getElementById("demo").innerHTML ="Changed Javascript!"
+            }
+
+            function myfunc1 () {
+                // document.getElementById("demo1").innerHTML ="Happy";
+                document.getElementById("demo1").style.fontSize = "25px";
+                document.getElementById("demo1").style.color = "red";
+                document.getElementById("demo1").style.backgroundColor= "yellow";
+            }   
+        </script>
+    </body>
+</html>
